@@ -1,3 +1,3 @@
 # knn_Activity
-<a href="/TASK REQUIREMENTS.docx"
-<a href="/majojeWinedataset.pdf"
+[Open Word file](TASK REQUIREMENTS.docx)
+[Open Word file]/majojeWinedataset.pdf"
