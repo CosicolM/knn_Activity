@@ -221,11 +221,101 @@ K-Nearest Neighbors (KNN) is an instance-based algorithm that classifies a data 
 
 Logistic Regression, on the other hand, is a model-based algorithm that learns a mathematical equation to separate classes. It is faster in prediction, works well for linearly separable data, and is less affected by large datasets. However, it may perform poorly if the relationship between variables is complex and non-linear.
 
-#WINE DATASET
+# WINE DATASET
 <img width="580" height="750" alt="image" src="https://github.com/user-attachments/assets/38a8b7c1-10e5-4a1b-9eba-04ad12c7c265" />
 <img width="573" height="776" alt="image" src="https://github.com/user-attachments/assets/4d42a890-397f-4eb9-846d-80fb3174bea5" />
 <img width="571" height="752" alt="image" src="https://github.com/user-attachments/assets/97ef8eec-2e42-4ebe-bf4a-b0a4b5a948b0" />
 <img width="576" height="767" alt="image" src="https://github.com/user-attachments/assets/66b3a114-ef20-4333-9bac-7a86e79f1d31" />
 <img width="574" height="811" alt="image" src="https://github.com/user-attachments/assets/656b65e0-240c-4d32-aee3-6e59d8aa1a95" />
+Summary: Wine Dataset using KNN and K-Means
+Dataset
+
+The dataset consists of 10 wine samples with two features:
+
+Alcohol
+Flavanoids
+
+Each wine is labeled as Class A or Class B. A test wine with values Alcohol = 13.00 and Flavanoids = 2.50 is used for classification.
+
+Part 1: KNN Classification
+
+The Euclidean distance formula was used to compute the distance between the test wine and each wine in the dataset. The computed distances were sorted in ascending order.
+
+Nearest neighbors (k = 3):
+
+Wine8 → Class B
+Wine2 → Class A
+Wine6 → Class B
+
+Voting:
+
+Class B = 2
+Class A = 1
+
+Final KNN Prediction:
+Test Wine → Class B
+
+This indicates that the unknown wine is more similar to wines belonging to Class B.
+
+Part 2: K-Means Clustering
+
+Initial centroids were selected:
+
+C1 = Wine1 (14.23, 3.06)
+C2 = Wine5 (12.33, 1.95)
+
+Each wine’s distance to both centroids was calculated and assigned to the nearest cluster.
+
+Cluster 1:
+Wine1, Wine3, Wine7, Wine9
+
+Cluster 2:
+Wine2, Wine4, Wine5, Wine6, Wine8, Wine10
+
+New centroids were computed by averaging values inside each cluster:
+
+New C1:
+(13.64 , 3.02)
+
+New C2:
+(12.69 , 2.30)
+
+Final Clustering Result
+
+Cluster 1:
+Higher alcohol and flavanoids wines
+W1, W3, W7, W9
+
+Cluster 2:
+Lower alcohol and flavanoids wines
+W2, W4, W5, W6, W8, W10
+
+New centroids were computed by averaging values inside each cluster:
+
+New C1:
+(13.64 , 3.02)
+
+New C2:
+(12.69 , 2.30)
+
+Final Clustering Result
+
+Cluster 1:
+Higher alcohol and flavanoids wines
+W1, W3, W7, W9
+
+Cluster 2:
+Lower alcohol and flavanoids wines
+W2, W4, W5, W6, W8, W10
+
+Final Conclusion
+
+KNN Result:
+The test wine was classified as Class B based on the majority vote of the nearest neighbors.
+
+K-Means Result:
+The dataset was grouped into two clusters. Cluster 1 contained wines with higher alcohol and flavanoids, while Cluster 2 contained wines with lower values.
+
+Overall, KNN was used for classification of the unknown wine, while K-means was used to discover natural groupings within the wine dataset.
 
 
