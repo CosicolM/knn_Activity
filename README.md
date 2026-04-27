@@ -221,4 +221,11 @@ K-Nearest Neighbors (KNN) is an instance-based algorithm that classifies a data 
 
 Logistic Regression, on the other hand, is a model-based algorithm that learns a mathematical equation to separate classes. It is faster in prediction, works well for linearly separable data, and is less affected by large datasets. However, it may perform poorly if the relationship between variables is complex and non-linear.
 
+#WINE DATASET
+<img width="580" height="750" alt="image" src="https://github.com/user-attachments/assets/38a8b7c1-10e5-4a1b-9eba-04ad12c7c265" />
+<img width="573" height="776" alt="image" src="https://github.com/user-attachments/assets/4d42a890-397f-4eb9-846d-80fb3174bea5" />
+<img width="571" height="752" alt="image" src="https://github.com/user-attachments/assets/97ef8eec-2e42-4ebe-bf4a-b0a4b5a948b0" />
+<img width="576" height="767" alt="image" src="https://github.com/user-attachments/assets/66b3a114-ef20-4333-9bac-7a86e79f1d31" />
+<img width="574" height="811" alt="image" src="https://github.com/user-attachments/assets/656b65e0-240c-4d32-aee3-6e59d8aa1a95" />
+
 
