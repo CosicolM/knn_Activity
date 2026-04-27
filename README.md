@@ -80,7 +80,7 @@ To get the median of a dataset, add all valid  numbers in a column then sort in 
 	Standardization or Min-Max normalization
 	I uses Standardization because it ensure that all features contribute equally to the distance calculation in KNN. Since KNN is a distance-based algorithm, features with larger numeric ranges (such as Glucose or BMI) it would otherwise dominate the model. By transforming tha data to have a mean of 0 and standard deviation of 1, standardization ensures fair comparison between features and improves model performance.
 	4. Show before and after preprocessing results (tables or summary statistics).
-  <img width="411" height="210" alt="image" src="https://github.com/user-attachments/assets/1b0b7764-f69e-4015-9fac-dd60bedf7490" />
+<img width="1039" height="199" alt="image" src="https://github.com/user-attachments/assets/f4a53c85-710c-4181-a634-47b0f6b8adb7" />
   <img width="1067" height="185" alt="image" src="https://github.com/user-attachments/assets/c4a2f87f-e8f7-467b-8565-4081b9ba0aec" />
 After scaling, all features were transformed using StandardScaler, which converts values into a standardized form where the mean is 0 and standard deviation is 1. Positive values indicate above-average measurements, while negative values indicate below-average measurements relative to the dataset.
 PART 3:
