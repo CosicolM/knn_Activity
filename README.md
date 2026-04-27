@@ -21,7 +21,7 @@ TASK REQUIREMENTS
 Part 1: Data Understanding
 	Describe each feature in your own words.
 	Pregnancies 
-	Number of times the patient has been pregnant. This is relevant because pregnancy can influence hormonal balance and diabetes risk.
+	- Number of times the patient has been pregnant. This is relevant because pregnancy can influence hormonal balance and diabetes risk.
 	Glucose
 	Blood glucose level (usually fasting). This is a direct indicator of how well the body regulates sugar – high values strongly suggest diabetes.
 	BloodPressure
