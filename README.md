@@ -20,25 +20,26 @@ You are provided with a dataset containing 768 patient records with the followin
 TASK REQUIREMENTS
 Part 1: Data Understanding
 	Describe each feature in your own words.
-	Pregnancies 
+	*Pregnancies 
 	- Number of times the patient has been pregnant. This is relevant because pregnancy can influence hormonal balance and diabetes risk.
-	Glucose
-	Blood glucose level (usually fasting). This is a direct indicator of how well the body regulates sugar – high values strongly suggest diabetes.
-	BloodPressure
-	Diastolic blood pressure (lower number in a BP reading). High blood pressure is often associated with metabolic disorders, including diabetes.
-	SkinThickness
-	Thickness of the skin fold (usually measured at the triceps). It’s used as an indirect measure of body fat.
-	Insulin
-	Insulin level in the blood. Insulin regulates blood sugar, abnormal levels may indicate insulin resistance or diabetes.
-	BMI
-	A measure of body fat based on height and weight. Higher BMI often correlates with increased diabetes risk.
-	DiabetesPedigreeFunction
-	A score representing genetic likelihood of diabetes based on family history. Higher values suggest stronger hereditary risk.
-	Age
-	Age of the patient. Risk of diabetes generally increases with age.
+	*Glucose
+	- Blood glucose level (usually fasting). This is a direct indicator of how well the body regulates sugar – high values strongly suggest diabetes.
+	*BloodPressure
+	- Diastolic blood pressure (lower number in a BP reading). High blood pressure is often associated with metabolic disorders, including diabetes.
+	*SkinThickness
+	-Thickness of the skin fold (usually measured at the triceps). It’s used as an indirect measure of body fat.
+	*Insulin
+	-Insulin level in the blood. Insulin regulates blood sugar, abnormal levels may indicate insulin resistance or diabetes.
+	*BMI
+	-A measure of body fat based on height and weight. Higher BMI often correlates with increased diabetes risk.
+	*DiabetesPedigreeFunction
+	-A score representing genetic likelihood of diabetes based on family history. Higher values suggest stronger hereditary risk.
+	*Age
+	-Age of the patient. Risk of diabetes generally increases with age.
 	Outcome
 	0 = Non-diabetic
 	1 = Diabetic
+	
 	Identify:
 	Which features are likely most important for prediction
                      This features are known major risk factors for diabetes:
@@ -54,6 +55,7 @@ Part 1: Data Understanding
 	SkinThickness
 	Insulin
 	BMI
+	
 Part 2: Data Preprocessing(20 pts)
 	Check for missing or zero values
 	Glucose
