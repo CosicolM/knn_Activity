@@ -1,4 +1,7 @@
 # knn_Activity
 [Open Word file](TASK REQUIREMENTS.docx)
 [Open Word file]/majojeWinedataset.pdf"
-📄 **Documentation:** [View PDF](docs/majojeWinedataset.pdf)
+
+[TASK.REQUIREMENTS.docx](https://github.com/user-attachments/files/27107778/TASK.REQUIREMENTS.docx)
+
+[majojeWinedataset.pdf](https://github.com/user-attachments/files/27107776/majojeWinedataset.pdf)
